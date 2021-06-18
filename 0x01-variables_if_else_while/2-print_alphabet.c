@@ -9,12 +9,11 @@
 int main(void)
 {
 int x = 'A';
- 
 while (x <= 'z')
 {
-  x = tolower(x);
+x = tolower(x);
 putchar(x);
-x ++;
+x++;
 }
-return 0;
+return (0);
 }
