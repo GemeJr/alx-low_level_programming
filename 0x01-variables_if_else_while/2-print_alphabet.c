@@ -15,6 +15,6 @@ x = tolower(x);
 putchar(x);
 x++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
