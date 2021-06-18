@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-int x = 'A';
+char x = 'A';
 while (x <= 'z')
 {
 x = tolower(x);
