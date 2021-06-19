@@ -9,9 +9,8 @@
  */
 int main(void)
 {
-char str;
-str = 'a';
-char num;
+int num = 0;
+char str = 'a';
  for (num = 0; num < 10; num++)
 {
 putchar (num % 10 + '0');
