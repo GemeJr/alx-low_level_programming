@@ -14,9 +14,10 @@ while (num < 10)
 {
 putchar (num % 10 + '0');
 num++;
-if (num != 10)
+if (num <= 9)
 putchar(',');
 putchar(' ');
 }
+putchar('\n');
 return (0);
 }
