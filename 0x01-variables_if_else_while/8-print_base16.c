@@ -11,7 +11,7 @@ int main(void)
 {
 char str;
 str = 'a';
-int num;
+char num;
  for (num = 0; num < 10; num++)
 {
 putchar (num % 10 + '0');
