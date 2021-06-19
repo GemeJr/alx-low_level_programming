@@ -16,6 +16,7 @@ putchar (num % 10 + '0');
 num++;
 if (num < 10)
 putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
