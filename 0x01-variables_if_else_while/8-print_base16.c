@@ -11,9 +11,10 @@ int main(void)
 {
 int num = 0;
 char str = 'a';
- for (num = 0; num < 10; num++)
+for (num < 10)
 {
 putchar (num % 10 + '0');
+num++;
 }
 while (str <= 'f')
 {
