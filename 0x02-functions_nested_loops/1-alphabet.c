@@ -7,7 +7,7 @@
  *main - Entry point
  *Return: Always 0 (Success)
  */
-int print_alphabet();
+int print_alphabet(char,char);
 int main(void)
 {
 char x = 'A';
