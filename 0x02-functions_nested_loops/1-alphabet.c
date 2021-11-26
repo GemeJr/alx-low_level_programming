@@ -1,15 +1,15 @@
 #include <stdlib.h>
-#include "main.h"
-#include <time.h>
 #include <stdio.h>
 #include <ctype.h>
+#include "main.h"
+
 /**
  *main - Entry point
  *Return: Always 0 (Success)
  */
+int print_alphabet();
 int main(void)
 {
-void print_alphabet(void);
 char x = 'A';
 while (x <= 'z')
 {
