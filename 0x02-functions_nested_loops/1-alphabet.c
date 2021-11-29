@@ -6,7 +6,6 @@
  *Return: no return
  *
  */
-int _putchar(char c);
 void print_alphabet(void)
 {
 char a = 'a';
