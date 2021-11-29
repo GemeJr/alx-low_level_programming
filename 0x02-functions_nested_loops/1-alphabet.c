@@ -1,22 +1,17 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
- *main - Entry point
- *Return: Always 0 (Success)
+ *print_alphabet - function to print alphabet
+ *
+ *Return: no return
+ *
  */
-int print_alphabet(char,char);
-int main(void)
+void print_alphabet(void)
 {
-char x = 'A';
-while (x <= 'z')
+char a = 'a';
+for (a = 'a'; a <= 'z'; a++)
 {
-x = tolower(x);
-putchar(x);
-x++;
+_putchar(a);
 }
-putchar('\n');
-return (0);
+_putchar ('\n');
 }
