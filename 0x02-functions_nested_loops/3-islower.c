@@ -1,23 +1,11 @@
 #include "main.h"
 #include <ctype.h> 
 
-int main()
+int _islower(int c);
+
+int _islower(int c)
 {
-char ch;    
-printf("Enter any character: ");
-scanf("%c", &ch);
-if(isupper(ch))
-{
-printf("'%c' is uppercase alphabet.", ch);
-}
-else if(islower(ch))
-{
-printf("'%c' is lowercase alphabet.", ch);
-return 1;
-}
-else
-{
-printf("'%c' is not an alphabet.", ch);
-}
-return 0;
+  if (c >= 97 && c <=122){
+    putchar(c);
+  }
 }
