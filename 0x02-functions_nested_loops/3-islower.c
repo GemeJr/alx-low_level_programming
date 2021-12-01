@@ -2,9 +2,9 @@
 #include <ctype.h>
 
 /**
- *_islower(): checks for a lowercase character.
+ *_islower()- checks for a lowercase character.
  *
- *Return: no return
+ *Return: Returns 1 if c is lowercase Returns 0 otherwise
  *
  */
 
@@ -14,6 +14,7 @@ int _islower(int c)
 if (c >= 97 && c <= 123)
 {
 return (1);
-}else
+}
+ else
 return (0);
 }
