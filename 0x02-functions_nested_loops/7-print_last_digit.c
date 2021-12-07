@@ -5,7 +5,7 @@
  *print_last_digit - a function that prints the last digit of a number.
  *@n: integer to be checked
  *
- *return - returns the value of the last digit
+ *Return: returns the value of the last digit
  *
  **/
 int print_last_digit(int n);
