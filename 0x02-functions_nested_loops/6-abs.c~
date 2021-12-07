@@ -1,0 +1,20 @@
+
+77;30407;0c#include "main.h"
+
+/**
+ *_abs - computes the absolute value
+ *
+ *@n: integer to be checked
+ *
+ *Return: Returns n
+ */
+int _abs(int n);
+int _abs(int n)
+{
+int f;
+if (f == ((n > 0) - (n < 0)))
+{
+_putchar(n);
+}
+return 0;
+}
