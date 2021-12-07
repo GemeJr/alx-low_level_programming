@@ -1,5 +1,4 @@
-
-77;30407;0c#include "main.h"
+#include "main.h"
 
 /**
  *_abs - computes the absolute value
@@ -11,9 +10,13 @@
 int _abs(int n);
 int _abs(int n)
 {
-if (f == ((n > 0) - (n < 0)))
+if (n < 0)
 {
-_putchar(n);
+return (-n);
 }
-return 0;
+else
+{
+return (n);
+}
+return (0);
 }
